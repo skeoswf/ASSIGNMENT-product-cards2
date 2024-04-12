@@ -1,3 +1,21 @@
 body {
-  background-color: orange;
+  background-color: beige;
+}
+
+#cardContainer {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 200px;
+  row-gap: 100px;
+  flex-wrap: wrap;
+  height: 760px;
+  width: 1530px;
+  border: 1px solid red;
+  margin: 16vh auto;
+}
+
+.card {
+  border: 2px solid black;
+  width: 250px;
+  height: 400px;
 }
